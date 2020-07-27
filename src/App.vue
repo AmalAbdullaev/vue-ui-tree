@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Tree :items="mapped" />
+    <Tree :items="mapped"/>
   </div>
 </template>
 
@@ -18,40 +18,106 @@ export default {
         {
           id: 1,
           parentId: null,
-          name: "Desc1",
-          checked: true
+          name: "All",
+          checked: true,
+          isOpen: false
         },
         {
           id: 2,
           parentId: 1,
-          name: "Desc2",
-          checked: true
+          name: "Customer",
+          checked: true,
+          isOpen: false
         },
         {
           id: 3,
           parentId: 1,
-          name: "Desc3",
-          checked: true
-        },        {
+          name: "Consumer",
+          checked: true,
+          isOpen: false
+        },        
+        {
           id: 4,
           parentId: 2,
-          name: "Desc4",
-          checked: true
-        },        {
+          name: "East",
+          checked: true,
+          isOpen: false
+        },        
+        {
           id: 5,
           parentId: 2,
-          name: "Desc5",
-          checked: true
-        },        {
+          name: "West",
+          checked: true,
+          isOpen: false
+        },        
+        {
           id: 6,
-          parentId: 4,
-          name: "Desc6",
-          checked: true
-        },        {
+          parentId: 3,
+          name: "East",
+          checked: true,
+          isOpen: false
+        },        
+        {
           id: 7,
+          parentId: 3,
+          name: "West",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 2828,
           parentId: 4,
-          name: "Desc7",
-          checked: true
+          name: "Amet",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 2929,
+          parentId: 4,
+          name: "Memet",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 2494,
+          parentId: 5,
+          name: "Artur",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 2985,
+          parentId: 5,
+          name: "Hamid",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 5228,
+          parentId: 6,
+          name: "Ibraim",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 5078,
+          parentId: 6,
+          name: "Rustam",
+          checked: true,
+          isOpen: false
+        },
+        {
+          id: 5818,
+          parentId: 7,
+          name: "Ayder",
+          checked: true,
+          isOpen: false
+        },        {
+          id: 5857,
+          parentId: 7,
+          name: "Samit",
+          checked: true,
+          isOpen: false
         }
       ]
     }
